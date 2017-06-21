@@ -65,6 +65,8 @@ class ViewController: UIViewController {
         
             let gameOver = UIAlertController(title: "Game Over", message: "Your score was \(scoreNum)", preferredStyle: UIAlertControllerStyle.actionSheet)
             
+            print("Yesss men")
+            
             gameOver.addAction(UIAlertAction(title: "Dismiss", style: .cancel))
             
             present(gameOver, animated: true)
